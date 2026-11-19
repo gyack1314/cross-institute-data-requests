@@ -1,0 +1,45 @@
+{
+  "synthetic": true,
+  "fields": [
+    "request_id",
+    "purpose",
+    "dataset",
+    "approved_scope",
+    "delivered_scope",
+    "license_version"
+  ],
+  "records": [
+    {
+      "request_id": "r-a",
+      "purpose": "materials-study",
+      "dataset": "ds-a",
+      "approved_scope": "phase-1",
+      "delivered_scope": "phase-1",
+      "license_version": "lic-1"
+    },
+    {
+      "request_id": "r-b",
+      "purpose": "materials-study",
+      "dataset": "ds-b",
+      "approved_scope": "phase-1,phase-2",
+      "delivered_scope": "phase-1",
+      "license_version": "lic-1"
+    },
+    {
+      "request_id": "r-c",
+      "purpose": "forecasting",
+      "dataset": "ds-a",
+      "approved_scope": "phase-2",
+      "delivered_scope": "",
+      "license_version": "lic-2"
+    },
+    {
+      "request_id": "r-d",
+      "purpose": "materials-study",
+      "dataset": "ds-c",
+      "approved_scope": "phase-3",
+      "delivered_scope": "phase-3",
+      "license_version": "lic-3"
+    }
+  ]
+}
